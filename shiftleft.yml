@@ -5,7 +5,12 @@ build_rules:
       - secret
       - insight
       - extscan
+	severity:
+      - critical
+    type:
+      - Session Injection
+    threshold: 0
     severity:
       - SEVERITY_MEDIUM_IMPACT
       - SEVERITY_HIGH_IMPACT
-    threshold: 0
+    threshold: 100
