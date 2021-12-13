@@ -1,0 +1,3 @@
+# Example analysis remediation config
+methods:
+   - pattern: XSS1
